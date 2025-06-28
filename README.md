@@ -1,2 +1,2 @@
 # DGE_analysis
-## Material for Unit 3 of the Genome Analysis course at Northeastern University
+## Material for the module on performing differential gene expression analysis on RNA-seq data lives here. This module is part of the "Genome analysis" course at Northeastern University.
