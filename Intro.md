@@ -3,4 +3,4 @@ Differential gene expression analysis relies on several operations you have alre
 The overall workflow is as follows:
 ![alt text](https://github.com/jamiehenzy/Genome_analysis_DGE/blob/assets/DGE_workflow.png)
 
-<img src="https://github.com/jamiehenzy/Genome_analysis_DGE/blob/assets/DGE_workflow.png" alt="DGE_workflow" width="400"/>
+<img src="https://github.com/jamiehenzy/Genome_analysis_DGE/blob/assets/DGE_workflow.png" alt="DGE_workflow" width="400" style="display: block; margin: 0 auto;"/>
