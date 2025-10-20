@@ -35,7 +35,6 @@ Output will include these files in the directory you specified in the command ab
  
 Use the OOD interface to download the table and open it in Excel. You can delete the columns headed chr, start, end, strand, and length, leaving only the columns of counts for each of the samples. If there is a row above the sample names, you can delete that, too. 
 
-Save the spreadsheet as a .csv file. (You have now recreated the counts_data.csv file that you read into RStudio to create a PCA plot, perform DGE analysis, and generate a heatmap. You now know how to do DGE analysis on RNA-seq data, start to finish!).
-
+Save the spreadsheet as a .csv file. You have now created a counts_data.csv file to read into RStudio and perform DGE analysis on!
 
 
