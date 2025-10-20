@@ -10,8 +10,10 @@ Go to the record for the study: GSE52778. Note the description, platform, and sa
 At the bottom of the page are files you can download, and a link to the SRA Run Selector, which gives information on each sample so that you can retrieve just what you want.
 After clicking SRA Run Selector to open it, you'll see a small upper table and a lower table with a row for every sample. Check the boxes next to the samples you want. On the upper table, toggle the button next to "Selected", the download the list of accession numbers. You can copy and paste the numbers from the list into a file in Explorer (use nano to open a new file) and name it something like acc_list.txt.
 Make a directory for your work on Explorer. You'll use the program sratoolkit, available as a module, to retrieve the fastq files from the dataset. SRA stands for "sequence read archive". For each sample you'll use two commands:
-`prefetch SRRxxxxxx (supply number)`
+```
+prefetch SRRxxxxxx (supply number)`
 fasterq-dump --split-files SRRxxxxxxx
+```
 6. What is the purpose of "--split-files"?
 Write a SBATCH script to perform the operation on all the files in your dataset. The job will take some minutes to run.
 
