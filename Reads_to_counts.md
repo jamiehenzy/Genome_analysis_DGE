@@ -27,7 +27,7 @@ The workflow for performing either variant analysis or differential gene express
 
 
 
-5. Write a script to generate a counts table. The command you'll use is part of a program called subread, which is available as a conda environment on our course site. Be sure to include the appropriate lines in your script for activating the subread environment. Also, your bam reads should all be in a directory called "bams", at the same level as your genome annotation file. Here's the subread command for generating a counts table:
+5. Write a script to generate a counts table. The command you'll use is part of a program called `subread`, which is available as a conda environment on our course site. Be sure to include the appropriate lines in your script for activating the subread environment. Also, your bam reads should all be in a directory called "bams", at the same level as your genome annotation file. Here's the subread command for generating a counts table:
 ```featureCounts -a Homo_sapiens.GRCh38.115.gtf -p --countReadPairs -o counts.txt -T 8 bams/*.bam```
 Output will include these files in the directory you specified in the command above. 
  
