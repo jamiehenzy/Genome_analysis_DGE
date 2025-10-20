@@ -17,8 +17,7 @@ fasterq-dump --split-files SRRxxxxxxx
 6. What is the purpose of "--split-files"?
 Write a SBATCH script to perform the operation on all the files in your dataset. The job will take some minutes to run.
 
-
-7. SBATCH script
+SBATCH script
 
 
 
