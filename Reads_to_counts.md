@@ -28,10 +28,13 @@ The workflow for performing either variant analysis or differential gene express
 
 
 5. Write a script to generate a counts table. The command you'll use is part of a program called `subread`, which is available as a conda environment on our course site. Be sure to include the appropriate lines in your script for activating the subread environment. Also, your bam reads should all be in a directory called "bams", at the same level as your genome annotation file. Here's the subread command for generating a counts table:
-```featureCounts -a Homo_sapiens.GRCh38.115.gtf -p --countReadPairs -o counts.txt -T 8 bams/*.bam```
+```
+featureCounts -a Homo_sapiens.GRCh38.115.gtf -p --countReadPairs -o counts.txt -T 8 bams/*.bam
+```
 Output will include these files in the directory you specified in the command above. 
  
 Use the OOD interface to download the table and open it in Excel. You can delete the columns headed chr, start, end, strand, and length, leaving only the columns of counts for each of the samples. If there is a row above the sample names, you can delete that, too. 
+
 Save the spreadsheet as a .csv file. (You have now recreated the counts_data.csv file that you read into RStudio to create a PCA plot, perform DGE analysis, and generate a heatmap. You now know how to do DGE analysis on RNA-seq data, start to finish!).
 
 
