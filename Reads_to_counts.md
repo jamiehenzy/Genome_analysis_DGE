@@ -5,8 +5,8 @@ Typical workflow:
 +	Align the RNA-seq reads to the genome, outputting BAM files
 +	Generate a counts table displaying the numbers of reads that represent each gene
 
-The workflow for performing either variant analysis or differential gene expression analysis  starts with obtaining the fastq files. When you extracted them from the GEO database, the only quality check you did was to make sure that paired-end read files were matched in size. Now you want to look at the overall quality of the reads themselves.
-1. Write a script to generate quality control readouts with the program fastqc. Interpretation of the readouts is the topic of a different worksheet, so we'll ignore this step for now.
+The workflow for performing either variant analysis or differential gene expression analysis  starts with obtaining the **fastq** files. When you extracted them from the GEO database, the only quality check you did was to make sure that paired-end read files were matched in size. Now you want to look at the overall quality of the reads themselves.
+1. Write a script to generate quality control readouts with the program `fastqc`. Interpretation of the readouts is the topic of a different worksheet, so we'll ignore this step for now.
 
 
 
@@ -14,8 +14,8 @@ The workflow for performing either variant analysis or differential gene express
 
 
 
-2.  What is the path for your indexed human genome files?
-path:
+2.  What is the path for your indexed human genome files? To save space on the cluster, use the set of indexed files in our courses data/hu_genome/ref folder
+Path: `/courses/BIOL3411.202610/data/hu_genome/ref`
 If you do not have the indexed files already, write the UNIX command for copying them from the course files to your own directory of choice:
 command:
 
