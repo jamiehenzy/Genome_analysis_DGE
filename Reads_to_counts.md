@@ -1,9 +1,9 @@
 ### Getting from sequencing reads to a table of read counts
 Typical workflow:
-•	Do a quality control check of the reads data to see if any trimming is required
-•	Generate an indexed version of the human reference genome sequence
-•	Align the RNA-seq reads to the genome, outputting BAM files
-•	Generate a counts table displaying the numbers of reads that represent each gene
++ Do a quality control check of the reads data to see if any trimming is required
++	Generate an indexed version of the human reference genome sequence
++	Align the RNA-seq reads to the genome, outputting BAM files
++	Generate a counts table displaying the numbers of reads that represent each gene
 
 The workflow for performing either variant analysis or differential gene expression analysis  starts with obtaining the fastq files. When you extracted them from the GEO database, the only quality check you did was to make sure that paired-end read files were matched in size. Now you want to look at the overall quality of the reads themselves.
 1. Write a script to generate quality control readouts with the program fastqc. Interpretation of the readouts is the topic of a different worksheet, so we'll ignore this step for now.
@@ -37,4 +37,4 @@ Use the OOD interface to download the table and open it in Excel. You can delete
 Save the spreadsheet as a .csv file. (You have now recreated the counts_data.csv file that you read into RStudio to create a PCA plot, perform DGE analysis, and generate a heatmap. You now know how to do DGE analysis on RNA-seq data, start to finish!).
 
 
-<img width="468" height="655" alt="image" src="https://github.com/user-attachments/assets/2e5c4625-5117-4364-960d-dd8f3eeb985a" />
+
