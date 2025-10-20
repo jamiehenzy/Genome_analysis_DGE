@@ -28,6 +28,7 @@ SBATCH script
 
 
 After running, you should see a set of files starting with your SRR numbers and ending in fastq. Use a unix command to count the lines in all files. 
+
 7. UNIX command:
 Each pair should have the same number of reads, or something is wrong. If a file pair does NOT have the same number of reads, do not use it in further analyses.
 
