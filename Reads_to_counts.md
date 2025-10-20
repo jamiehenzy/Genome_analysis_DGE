@@ -14,10 +14,8 @@ The workflow for performing either variant analysis or differential gene express
 
 
 
-2.  What is the path for your indexed human genome files? To save space on the cluster, use the set of indexed files in our courses data/hu_genome/ref folder
-Path: `/courses/BIOL3411.202610/data/hu_genome/ref`
-If you do not have the indexed files already, write the UNIX command for copying them from the course files to your own directory of choice:
-command:
+2.  What is the path for your indexed human genome files? To save space on the cluster, use the set of indexed files in our course folder: `/courses/BIOL3411.202610/data/hu_genome/ref`
+
 
 3.  Now we need to map the reads to the genome. We've used two different programs for this purpose – bowtie2 and STAR. Which is the one to use when working with organisms that have introns?
 
@@ -30,7 +28,7 @@ command:
 
 
 5. Write a script to generate a counts table. The command you'll use is part of a program called subread, which is available as a conda environment on our course site. Be sure to include the appropriate lines in your script for activating the subread environment. Also, your bam reads should all be in a directory called "bams", at the same level as your genome annotation file. Here's the subread command for generating a counts table:
-featureCounts -a Homo_sapiens.GRCh38.115.gtf -p --countReadPairs -o counts.txt -T 8 bams/*.bam
+```featureCounts -a Homo_sapiens.GRCh38.115.gtf -p --countReadPairs -o counts.txt -T 8 bams/*.bam```
 Output will include these files in the directory you specified in the command above. 
  
 Use the OOD interface to download the table and open it in Excel. You can delete the columns headed chr, start, end, strand, and length, leaving only the columns of counts for each of the samples. If there is a row above the sample names, you can delete that, too. 
