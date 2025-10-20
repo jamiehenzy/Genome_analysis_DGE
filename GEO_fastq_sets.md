@@ -15,9 +15,9 @@ prefetch SRRxxxxxx (supply number)
 fasterq-dump --split-files SRRxxxxxxx
 ```
 6. What is the purpose of "--split-files"?
-Write a SBATCH script to perform the operation on all the files in your dataset. The job will take some minutes to run.
 
-SBATCH script
+Write a SBATCH script to perform the operation on all the files in your dataset. The job will take some minutes to run.
+7. SBATCH script
 
 
 
@@ -29,7 +29,7 @@ SBATCH script
 
 After running, you should see a set of files starting with your SRR numbers and ending in fastq. Use a unix command to count the lines in all files. 
 
-7. UNIX command:
+8. UNIX command:
 Each pair should have the same number of reads, or something is wrong. If a file pair does NOT have the same number of reads, do not use it in further analyses.
 
 
