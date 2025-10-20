@@ -8,7 +8,7 @@ Write generic scripts for:
 + Generating a counts table, metadata table, and DESeq2 object
 + Generating a PCA plot
 + Performing DGE analysis on the DESeq2 object
-+ Adjusting the p-value to achieve to narrow down the hits
++ Adjusting the p-value to narrow down the hits
 + Assigning gene names to Ensembl gene IDs
 + Generating a heatmap and saving it
 
