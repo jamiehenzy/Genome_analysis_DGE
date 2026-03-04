@@ -3,7 +3,7 @@
 We'll use the "airway" dataset that we've worked with before (GSE52778). We'll need the fastq files from the:
 + Control cells
 + Dexamethasone-treated cells
-+ Albuterol-treated cells.
++ Albuterol-treated cells
   
 Go to the record for the study. Note the description, platform, and samples data. 
 1. What was the purpose of the study?
