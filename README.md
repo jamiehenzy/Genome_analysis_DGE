@@ -1,6 +1,8 @@
 Material for the module on differential gene expression analysis for the "Genome Analysis" course at Northeastern University lives here.
 
-#### Assignment: DGE_assignment.md
+#### Assignment
+
+Complete DGE_assignment.md. Have a look at the other files in the repo for helpful information.
 
 #### Submission
 
