@@ -14,7 +14,7 @@ The workflow for performing either variant analysis or differential gene express
 
 
 
-2.  What is the path for your indexed human genome files? To save space on the cluster, use the set of indexed files in our course folder: `/courses/BIOL3411.202610/data/hu_genome/ref`
+2.  What is the path for your indexed human genome files? To save space on the cluster, use the set of indexed files in our course folder: `/courses/BIOL3411.202630/data/hu_genome/ref`
 
 
 3.  Now we need to map the reads to the genome. We've used two different programs for this purpose – bowtie2 and STAR. Which is the one to use when working with organisms that have introns?
