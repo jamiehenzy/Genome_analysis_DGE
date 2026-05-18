@@ -13,3 +13,7 @@ Complete DGE_assignment.md. Have a look at the other files in the repo for helpf
 + PCA plot for each of the two analyses
 + Heatmaps of top 50 hits for each analysis (showing **gene symbols**, not ENS gene IDs)
 + Best practices in file naming and organization of your material into subdirectories
+
+#### Where to find RNAseq datasets to practice with
+
+[Recount3](https://rna.recount.bio/)
